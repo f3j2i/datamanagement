@@ -16,8 +16,3 @@ heads_count = results.count("Heads")
 tails_count = results.count("Tails")
 
 print(f"Heads: {heads_count}, Tails: {tails_count}")
-
-if heads_count > tails_count:
-    print(f"{name} won!")
-else:
-    print(f"{name} lost!")
